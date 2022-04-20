@@ -9,7 +9,7 @@ public class Core_Java_Exercises_ControlFlow {
 
 		// 1
 			/*Write a program that declares 1 integer variable x, and then assigns 7 to it. 
-			   Write an if statement to print out “Less than 10” if x is less than 10. 
+			   Write an if statement to print out â€œLess than 10â€ if x is less than 10. 
 			   Change x to equal 15 and notice the result (console should not display anything).*/
 			
 			int x1 = 7;
@@ -22,7 +22,7 @@ public class Core_Java_Exercises_ControlFlow {
 		
 		// 2
 			/*Write a program that declares 1 integer variable x, and then assigns 7 to it. 
-			   Write an if-else statement that prints out “Less than 10” if x is less than 10 and “Greater than 10” 
+			   Write an if-else statement that prints out â€œLess than 10â€ if x is less than 10 and â€œGreater than 10â€ 
 			   if x is greater than 10. Change x to 15 and notice the result.*/
 			
 			int x2 = 7;
@@ -37,8 +37,8 @@ public class Core_Java_Exercises_ControlFlow {
 		
 		// 3
 			/*Write a program that declares 1 integer variable x, and then assigns 15 to it. 
-			   Write an “if-else-if” statement that prints out “Less than 10” if x is less than 10, 
-			   “Between 10 and 20” if x is greater than 10 but less than 20, and “Greater than or equal to 20” 
+			   Write an â€œif-else-ifâ€ statement that prints out â€œLess than 10â€ if x is less than 10, 
+			   â€œBetween 10 and 20â€ if x is greater than 10 but less than 20, and â€œGreater than or equal to 20â€ 
 			   if x is greater than or equal to 20. Change x to 50 and notice the result.*/
 		
 			int x3 = 15;
@@ -55,8 +55,8 @@ public class Core_Java_Exercises_ControlFlow {
 			}
 		// 4
 			/*Write a program that declares 1 integer variable x, and then assigns 15 to it.
-			   Write an if-else statement that prints “Out of range” if the number is less than 10 or greater than 20 and 
-			   prints “In range” if between 10 and 20 (including equal to 10 or 20). Change x to 5 and notice the result.*/
+			   Write an if-else statement that prints â€œOut of rangeâ€ if the number is less than 10 or greater than 20 and 
+			   prints â€œIn rangeâ€ if between 10 and 20 (including equal to 10 or 20). Change x to 5 and notice the result.*/
 			
 			int x4 = 15;
 			
@@ -77,7 +77,7 @@ public class Core_Java_Exercises_ControlFlow {
 				D: 60-69
 				F: <60
 
-			   Use the Scanner class to accept a number score from the user to determine the letter grade. Print out “Score out of range.” 
+			   Use the Scanner class to accept a number score from the user to determine the letter grade. Print out â€œScore out of range.â€ 
 			   if the score is less than 0 or greater than 100.*/
 			
 			Scanner score = new Scanner(System.in);
@@ -88,7 +88,7 @@ public class Core_Java_Exercises_ControlFlow {
 			if(grade > 100 || grade <0) {
 				System.out.println("Score out of range");
 			}
-			else if(grade <= 100 || grade >= 90) {
+			else if(grade <= 100 && grade >= 90) {
 				System.out.println("A");
 			}
 			else if(grade >= 80 && grade <= 89) {
@@ -107,8 +107,8 @@ public class Core_Java_Exercises_ControlFlow {
 			score.close();
 		// 6
 			/*Write a program that accepts an integer between 1 and 7 from the user. 
-			  Use a switch statement to print out the corresponding weekday. Print “Out of range” if the number is less 
-			  than 1 or greater than 7. Don’t forget to include “break” statements in each of your cases.*/
+			  Use a switch statement to print out the corresponding weekday. Print â€œOut of rangeâ€ if the number is less 
+			  than 1 or greater than 7. Donâ€™t forget to include â€œbreakâ€ statements in each of your cases.*/
 			
 			Scanner dayIn = new Scanner(System.in);
 			
